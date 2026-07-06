@@ -1,4 +1,4 @@
-FROM tomcat:10.1-jdk17-slim
+FROM tomcat:10.1-jdk17
 
 # Eliminar las aplicaciones por defecto de Tomcat
 RUN rm -rf /usr/local/tomcat/webapps/*
